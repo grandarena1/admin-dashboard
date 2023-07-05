@@ -19,17 +19,27 @@
     color: white;
   }
 
+/* Header Elements */
+
 .header {
     background-color: white;
     grid-column: 2;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
 }
 
+/* Sidebar Elements */
+
 .sidebar {
-    background-color: #393f4d;
+    background-color: rgb(29, 183, 255);
     grid-column: 1;
     grid-row: 1 / span 2;
 }
 
+.sidelist-1 ul li {
+    list-style: none;
+}
+
 .main-content {
-    background-color: rgb(206, 211, 231);
+    background-color: rgb(215, 220, 239);
 }
