@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.container div {
+    padding: 15px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+  }
+
+.header {
+    background-color: white;
+    grid-column: 2;
+}
+
+.sidebar {
+    background-color: #393f4d;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.main-content {
+    background-color: rgb(206, 211, 231);
+}
