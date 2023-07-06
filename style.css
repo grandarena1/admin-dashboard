@@ -12,12 +12,12 @@
 }
 
 .container div {
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
     font-family: Helvetica;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
-  }
+}
 
 /* Header Elements */
 
@@ -25,7 +25,40 @@
     background-color: white;
     grid-column: 2;
     display: grid;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+}
+
+.header-top-row-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: rgb(215, 220, 239);
+    width: 75%;
+    height: 12px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.fa-magnifying-glass {
+    margin-left: 15px;
+}
+
+.fa-pied-piper-pp {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header-user-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-user-buttons div {
+    color: black;
 }
 
 /* Sidebar Elements */
