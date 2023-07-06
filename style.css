@@ -61,6 +61,35 @@
     color: black;
 }
 
+.header-bottom-row-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom-row-left p {
+    color: black;
+    font-size: 12px;
+}
+
+.header-bottom-row-left span {
+    font-size: 18px;
+}
+
+.header-bottom-row-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(29, 183, 255);
+    font-weight: bolder;
+}
+
 /* Sidebar Elements */
 
 .sidebar {
