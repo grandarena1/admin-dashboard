@@ -94,8 +94,19 @@ button {
 
 .sidebar {
     background-color: rgb(29, 183, 255);
+    display: grid;
+    grid-template-rows: 1fr 4fr 2.5fr 5fr;
     grid-column: 1;
     grid-row: 1 / span 2;
+}
+
+.sidebar-heading {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar h2 {
+    margin-left: 10px;
 }
 
 .sidelist-1 ul li {
